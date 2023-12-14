@@ -1,10 +1,11 @@
+import NavBar from "./components/NavBar"
+import Hero from "./components/Hero"
 
 export default function Home() {
   return (
     <main>
-      <div>Welcome to my portfolio</div>
-      <div>RENJA SCHMAKEIT</div>
-      <div>Junior Web- and App-Developer with project management skills</div>
+      <NavBar/>
+      <Hero /> 
     </main>
   )
 }
