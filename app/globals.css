@@ -17,16 +17,17 @@
 }
 
 body {
-  padding: 1rem;
+  /* padding: 1rem; */
   color: rgb(var(--foreground-rgb));
   font-family: 'Roboto';
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb( 156, 189, 178)
     )
-    rgb(var(--background-start-rgb));
+    rgb(210, 255, 240); */
     background-repeat: no-repeat;
+    background-color: #b2d8cc;
 }
 
 h1 {
