@@ -7,6 +7,7 @@ import {ExpressIcon, NextjsIcon, ReactIcon, JavaScriptIcon} from './Icons';
 function Hero() {
   return (
     <>
+    <div className='section'>
     <div className='flex flex-row'>
 
     
@@ -31,7 +32,7 @@ function Hero() {
       </div>
     </div>
     </div>
-
+    </div>
     
     </>
 
