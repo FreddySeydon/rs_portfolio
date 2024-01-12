@@ -1,20 +1,49 @@
+"use client"
+
 import React from 'react'
 import calculateAge from '@/utils'
 import styles from './About.module.css'
-import {ReactIcon} from './Icons'
+import { ExpressIcon, ReactIcon, JavaScriptIcon, NextjsIcon, CssIcon, FirebaseIcon, GitHubIcon, GitIcon, HtmlIcon, IllustratorIcon, MongoIcon, PhotoshopIcon, PostgresIcon, PythonIcon, PremiereIcon, SassIcon, SlackIcon, SqlilteIcon, TailwindIcon, TrelloIcon, TypeScriptIcon, VsCodeIcon, WebStormIcon, XdIcon, ReactNativeIcon } from './Icons'
+import Skill from './Skill'
 
 const About = () => {
 
-    const skills = [ReactIcon];
+  const skillIcons = [
+    <JavaScriptIcon />,
+    <ReactIcon />,
+    <NextjsIcon />,
+    <ExpressIcon />,
+    <CssIcon />,
+    <FirebaseIcon />,
+    <GitHubIcon />,
+    <GitIcon />,
+    <HtmlIcon />,
+    <IllustratorIcon />,
+    <MongoIcon />,
+    <PhotoshopIcon />,
+    <PostgresIcon />,
+    <PythonIcon />,
+    <PremiereIcon />,
+    <SassIcon />,
+    <SlackIcon />,
+    <SqlilteIcon />,
+    <TailwindIcon />,
+    <TrelloIcon />,
+    <TypeScriptIcon />,
+    <VsCodeIcon />,
+    <WebStormIcon />,
+    <XdIcon />,
+    <ReactNativeIcon />
+];
+
 
   return (
     <div className='flex flex-col w-full lg:flex-row p-5'>
-      <div tabIndex={0} className='collapse collapse-arrow bg-base-200 w-1/3 rounded-box bg-slate-100'>
-        <input type="checkbox" />
+      <div className='w-1/3 rounded-box bg-cyan-100 pl-5 pr-5 drop-shadow-sm'>
         <div className='collapse-title text-xl font-medium'>
-        <h1 className='font-bold text-large'>Click here for key data</h1>
+        <h2 className='text-3xl text-center font-bold mb-2'>Key Data</h2>
         </div>
-        <div className='collapse-content'>
+        <div>
 
         <table>
             <tr>
@@ -65,6 +94,12 @@ const About = () => {
       <div className='divider divider-horizontal divider-primary'></div>
       <div className='w-1/3 rounded-box bg-cyan-100 p-5 drop-shadow-sm'>
         <h2 className='text-3xl text-center font-bold mb-5'>Skills</h2>
+        <div className='grid grid-cols-4 gap-2'>
+        {skillIcons.map((IconComponent, index) => (
+        <Skill IconComponent={IconComponent} key={index} index={index} />
+        ))}
+        </div>
+
         <div>
         </div>
       </div>
