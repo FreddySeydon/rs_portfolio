@@ -1,3 +1,15 @@
-h3 {
-    color: rgb(47 72 88);
+.tintedImageWrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.tintedImageWrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: red; /* Red tint with 50% opacity */
+    mix-blend-mode: multiply;
 }

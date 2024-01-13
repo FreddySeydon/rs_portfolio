@@ -28,7 +28,7 @@ const config: Config = {
           "secondary": "rgb(241, 245, 249)",
           "accent": "rgb(95, 89, 133)",
           "neutral": "rgb(243, 236, 255)"
-        }
+        },
       }
     ]
   },

@@ -10,7 +10,6 @@ type SkillProps = {
 }
 
 const Skill: React.FC<SkillProps> = ({IconComponent, index, widthClass, fill}) => {
-  console.log(widthClass)
    const [isEven, setIsEven] = useState(false)
    const [className, setClassName] = useState('')
 
