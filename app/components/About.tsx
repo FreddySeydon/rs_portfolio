@@ -7,19 +7,19 @@ const About = () => {
 
   return (
     <>
-    <div className="flex flex-col bg-accent-blue">
+    <div className="flex flex-col bg-accent-blue h-fit">
       <h1 className="uppercase text-5xl text-slate-100 font-bold ml-10 mt-8">About Me</h1>
-    <div className="flex flex-col w-full lg:flex-row p-5 bg-accent-blue pt-8 mb-5" style={{height: '500px'}}>
-      <div className="w-1/3 h-full pb-9 rounded-box bg-basic-green pl-5 pr-5 drop-shadow-sm">
+    <div className="flex flex-col w-full lg:flex-row p-5 bg-accent-blue pt-8 mb-5" style={{height: 'auto'}}>
+      <div className="w-full lg:w-1/3 h-full pb-9 mb-5 lg:mb-0 rounded-box bg-basic-green pl-5 pr-5 drop-shadow-sm">
         <div className="collapse-title text-xl font-medium">
-          <h2 className="text-3xl text-center font-bold mb-2 text-accent-blue uppercase">Key Data</h2>
+          <h2 className="text-3xl text-center font-bold text-accent-blue uppercase">Key Data</h2>
         </div>
-        <div>
+        <div className="w-fit">
           <KeyData />
         </div>
       </div>
       <div className="divider divider-horizontal divider-primary"></div>
-      <div className="w-1/3 h-full pb-7 rounded-box bg-slate-100 p-5 drop-shadow-sm">
+      <div className="w-full lg:w-1/3 h-full lg:min-h- pb-7 mb-5 lg:mb-0 rounded-box bg-slate-100 p-5 drop-shadow-sm">
         <h2 className="text-3xl text-center font-bold mb-5 text-accent-blue uppercase">
           Short description
         </h2>
@@ -32,7 +32,9 @@ const About = () => {
         </h3>
       </div>
       <div className="divider divider-horizontal divider-primary"></div>
+      <div className="w-full lg:w-1/3 mb-5 lg:mb-0">
       <SkillsList />
+      </div>
 
     </div>
     </div>

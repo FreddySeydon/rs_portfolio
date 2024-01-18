@@ -72,7 +72,7 @@ const SkillsList = () => {
       }
     
   return (
-    <div className="w-1/3 rounded-box bg-basic-green p-5 drop-shadow-sm h-max">
+    <div className="rounded-box bg-basic-green p-5 drop-shadow-sm h-max">
     <h2 className="text-3xl text-center font-bold mb-5 uppercase text-accent-blue">Skills</h2>
     <div className="grid grid-cols-4 gap-2">
       {skillIcons.map((IconComponent, index) =>

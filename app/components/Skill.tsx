@@ -14,7 +14,7 @@ const Skill: React.FC<SkillProps> = ({IconComponent, index, widthClass, fill}) =
    const [className, setClassName] = useState('')
 
    useEffect(() => {
-    const baseClass = 'rounded-md bg-slate-100 p-1 origin-center cursor-pointer transition-all drop-shadow-md';
+    const baseClass = 'rounded-md bg-slate-100 p-1 origin-center transition-all drop-shadow-md';
     if(index % 2 == 0) {
       setIsEven(true);
       setClassName(`${baseClass} hover:rotate-12`)
