@@ -19,7 +19,7 @@ function Hero() {
       </div>
     </div>
     <div className='flex flex-col justify-center content-center w-full lg:w-1/3 pb-7 lg:pb-0'>
-      <h3 className='text-3xl text-center font-bold mb-5 text-accent-blue'>Former Media Allrounder transforming into a passionate Web- and App-Developer</h3>
+      <h3 className='text-3xl text-center font-bold mb-5 text-accent-blue pr-10 pl-10 lg:pr-0 lg:pl-0'>Former Media Allrounder transforming into a passionate Web- and App-Developer</h3>
       <div className='flex flex-row p-1 m-2 content-center justify-center'>
         <JavaScriptIcon className='mr-2 ml-2 rounded-md bg-slate-100 p-1 origin-center hover:-rotate-12 transition-all drop-shadow-md'/>
         <ReactIcon className='mr-2 ml-2 rounded-md bg-slate-100 p-1 hover:rotate-12 transition-all drop-shadow-md'/>
