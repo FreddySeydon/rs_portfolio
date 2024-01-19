@@ -26,12 +26,12 @@ function Hero() {
         <NextjsIcon className='mr-2 ml-2 rounded-md bg-slate-100 p-1 hover:-rotate-12 transition-all drop-shadow-md'/>
         <ExpressIcon className='mr-2 ml-2 rounded-md bg-slate-100 p-1 hover:rotate-12 transition-all drop-shadow-md'/>
       </div>
-      <div className='flex flex-col mt-10'>
-        <a href="#portfolio" className='btn btn-lg btn-accent mb-2 text-white'>
-        <div>Go to my Portfolio</div>
+      <div className='flex flex-col mt-2 lg:mt-10'>
+        <a href="#portfolio" className='btn btn-lg btn-accent bg-accent-blue mb-2 text-white'>
+        <div className='text-2xl lg:text-xl'>Go to my Portfolio</div>
         </a>
-        <a href="#about" className='btn btn-lg btn-neutral mb-2'>
-        <div className='btn btn-lg btn-neutral '>Get to know me</div>
+        <a href="#about" className='btn btn-lg btn-neutral bg-slate-100 mb-2'>
+        <div className='text-2xl lg:text-xl'>Get to know me</div>
         </a>
       </div>
     </div>
