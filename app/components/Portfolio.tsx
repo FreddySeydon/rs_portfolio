@@ -31,7 +31,7 @@ const Portfolio = () => {
                 louder and quieter using faders, as well as mute or solo them
                 using a button. In addition, the lyrics of the individual songs
                 are synchronized and clickable, so that you can jump to the
-                corresponding position so that you don't always have to search
+                corresponding position so that you don&apos;t always have to search
                 for the right position during rehearsals. This can be very
                 difficult with an instrumental playback without clickable
                 Vocals.
@@ -62,11 +62,11 @@ const Portfolio = () => {
               <p className="text-2xl pb-2">
                 Answer a question every day and get to know your friends better
                 despite the fast pace of everyday life. The social app
-                "honestcouch" helps you to stay in touch and find out exciting
+                &quot;honestcouch&quot; helps you to stay in touch and find out exciting
                 things about your friends even in stressful times. Every day, a
                 new question is sent by push message, which users can then
                 answer. Once they have answered the question, they can see their
-                friends' answers. The app is my final project of the boot camp
+                friends&apos; answers. The app is my final project of the boot camp
                 at the WBS Coding School made in React Native with Express
                 backend and is currently being further developed by me. A closed beta
                 version is available by invitation via the Google Play Store.
