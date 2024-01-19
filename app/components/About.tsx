@@ -14,7 +14,7 @@ const About = () => {
         <div className="collapse-title text-xl font-medium">
           <h2 className="text-3xl text-center font-bold text-accent-blue uppercase">Key Data</h2>
         </div>
-        <div className="w-fit">
+        <div className="overflow-x-auto">
           <KeyData />
         </div>
       </div>

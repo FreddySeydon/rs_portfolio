@@ -3,7 +3,7 @@ import calculateAge from '@/utils'
 
 const KeyData = () => {
   return (
-    <table className='table table-zebra'>
+    <table className='table table-zebra w-full'>
         <tbody>
     <tr>
       <td>
@@ -67,7 +67,7 @@ const KeyData = () => {
         </h3>
       </td>
       <td>
-        <h3 className="text-xl font-bold text-accent-blue">
+        <h3 className="text-xl font-bold text-accent-blue pr-5">
           Web- & App-Development Bootcamp at WBS Coding School
         </h3>
       </td>
