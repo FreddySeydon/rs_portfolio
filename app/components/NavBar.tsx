@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import rfsLogo from "../../public/rfs_logo.jpg";
+import rfsLogo from "../../public/rfs_logo.png";
 import { DrawerMenuIcon, ReactIcon } from "./Icons";
 
 const NavBar = () => {
@@ -10,8 +10,8 @@ const NavBar = () => {
         <div>
           <Image
             src={rfsLogo}
-            width={50}
-            height={50}
+            width={60}
+            height={60}
             alt="Logo"
             className="rounded-md ml-8 hidden lg:block"
           />
@@ -30,17 +30,17 @@ const NavBar = () => {
         <div>
           <ul className="flex flex-row p-2">
             <a href="#home" className="text-xl hidden lg:block">
-              <li className="p-4 hover:scale-110 transition-all">Welcome</li>
+              <li className="p-4 hover:scale-110 transition-all font-semibold text-accent-blue">Welcome</li>
             </a>
             <a href="#about" className="text-xl hidden lg:block">
-              <li className="p-4 hover:scale-110 transition-all">About Me</li>
+              <li className="p-4 hover:scale-110 transition-all font-semibold text-accent-blue">About Me</li>
             </a>
             <a href="#portfolio" className="text-xl hidden lg:block">
-              <li className="p-4 hover:scale-110 transition-all">Portfolio</li>
+              <li className="p-4 hover:scale-110 transition-all font-semibold text-accent-blue">Portfolio</li>
             </a>
           </ul>
         </div>
-        <div className="block lg:hidden text-xl text-">
+        <div className="block lg:hidden text-xl text-accent-blue">
           Renja Ferry Schmakeit - Portfolio
         </div>
       </div>

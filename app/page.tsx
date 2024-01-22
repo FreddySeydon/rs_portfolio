@@ -9,7 +9,7 @@ const DrawerMenu = dynamic(() => import("./components/DrawerMenu"), {
 });
 
 export default function Home() {
-  const navbarHeight = "60px";
+  const navbarHeight = "65px";
 
   return (
     <div className="drawer">
@@ -18,7 +18,7 @@ export default function Home() {
           <div className="sticky top-0 right-0 left-0 z-40">
             <NavBar />
           </div>
-          <div id="home" style={{ scrollMarginTop: "100px" }}>
+          <div id="home" style={{ scrollMarginTop: "120px" }}>
             <Hero />
           </div>
           <div id="about" style={{ scrollMarginTop: navbarHeight }}>

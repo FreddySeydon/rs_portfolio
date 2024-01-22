@@ -20,11 +20,11 @@ const Portfolio = () => {
               <Image src={RehearsalPreview} alt="Rehearsal App Preview" />
             </figure>
             <div className="card-body w-full lg:w-1/2">
-              <h2 className="card-title">
+              <h2 className="card-title text-black text-2xl">
                 Rehearsal App
                 <div className="badge badge-secondary">WIP</div>
               </h2>
-              <p className="text-2xl">
+              <p className="text-2xl text-black">
                 The Rehearsal App is a web app designed to help singers learn
                 their voice. The central point for this is the mixer, with which
                 you can make the individual voices of the practice playbacks
@@ -44,9 +44,9 @@ const Portfolio = () => {
                 </div>
               </a>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Productivity</div>
-                <div className="badge badge-outline">Music</div>
-                <div className="badge badge-outline">Learning</div>
+                <div className="badge badge-outline text-accent-blue">Productivity</div>
+                <div className="badge badge-outline text-accent-blue">Music</div>
+                <div className="badge badge-outline text-accent-blue">Learning</div>
               </div>
             </div>
           </div>
@@ -55,11 +55,11 @@ const Portfolio = () => {
               <Image src={HonestcouchPreview} alt="Rehearsal App Preview" />
             </figure>
             <div className="card-body w-full lg:w-1/2 lg:order-1">
-              <h2 className="card-title">
+              <h2 className="card-title text-black text-2xl">
                 honestcouch
                 <div className="badge badge-secondary">WIP</div>
               </h2>
-              <p className="text-2xl pb-2">
+              <p className="text-2xl pb-2 text-black">
                 Answer a question every day and get to know your friends better
                 despite the fast pace of everyday life. The social app
                 &quot;honestcouch&quot; helps you to stay in touch and find out exciting
@@ -71,17 +71,17 @@ const Portfolio = () => {
                 backend and is currently being further developed by me. A closed beta
                 version is available by invitation via the Google Play Store.
               </p>
-              {/* <a href="http://songs.renja.cc" target="_blank">
+              {/* <a href="LINK TO HONESTCOUCH" target="_blank">
                 <div className="card-actions justify-center mt-2 mb-2">
                   <button className="btn btn-primary text-2xl lg:text-xl w-full">
-                    Try it yourself!
+                    PLACEHOLDER FOR FUTURE LINK
                   </button>
                 </div>
               </a> */}
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Social-App</div>
-                <div className="badge badge-outline">Digital Wellbeing</div>
-                <div className="badge badge-outline">Wholesome</div>
+                <div className="badge badge-outline text-accent-blue">Social-App</div>
+                <div className="badge badge-outline text-accent-blue">Digital Wellbeing</div>
+                <div className="badge badge-outline text-accent-blue">Wholesome</div>
               </div>
             </div>
           </div>

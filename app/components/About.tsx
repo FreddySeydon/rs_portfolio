@@ -20,7 +20,7 @@ const About = () => {
                 Key Data
               </h2>
             </div>
-            <div className="overflow-x-auto">
+            <div className="lg:overflow-x-auto">
               <KeyData />
             </div>
           </div>
@@ -33,7 +33,7 @@ const About = () => {
               I studied Design & Media in Hannover and worked in the media
               industry for 10 years in various positions on set and in the
               production office as well as in post production. The skillset I
-              acquired during that time comes in handy a lot on my new journey
+              acquired during that time comes in handy in a lot of situations on my new journey
               to becoming an excellent coder.
             </h3>
           </div>
