@@ -15,7 +15,7 @@ const About = () => {
           style={{ height: "auto" }}
         >
           <div className="w-full lg:w-1/3 h-full pb-9 mb-5 lg:mb-0 rounded-box bg-basic-green pl-5 pr-5 drop-shadow-sm">
-            <div className="collapse-title text-xl font-medium">
+            <div className="mt-5 mb-5 lg:mb-2 text-xl font-medium">
               <h2 className="text-3xl text-center font-bold text-accent-blue uppercase">
                 Key Data
               </h2>
