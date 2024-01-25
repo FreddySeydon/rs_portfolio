@@ -31,13 +31,13 @@ function Hero() {
             </h3>
             <div className="flex flex-row p-1 m-2 content-center justify-center">
             <div className="tooltip origin-center mr-2 ml-2 w-full" data-tip="JavaScript">
-              <JavaScriptIcon className="rounded-md bg-slate-100 p-1 origin-center hover:-rotate-12 transition-all drop-shadow-md w-full h-full" />
+              <JavaScriptIcon className="rounded-md bg-slate-100 p-1 origin-center hover:rotate-12 transition-all drop-shadow-md w-full h-full" />
               </div>
               <div className="tooltip origin-center mr-2 ml-2 w-full" data-tip="React">
               <ReactIcon className="rounded-md bg-slate-100 p-1 origin-center hover:-rotate-12 transition-all drop-shadow-md w-full h-full" />
               </div>
               <div className="tooltip origin-center mr-2 ml-2 w-full" data-tip="Next.js (This Website!)">
-              <NextjsIcon className="rounded-md bg-slate-100 p-1 origin-center hover:-rotate-12 transition-all drop-shadow-md w-full h-full" />
+              <NextjsIcon className="rounded-md bg-slate-100 p-1 origin-center hover:rotate-12 transition-all drop-shadow-md w-full h-full" />
               </div>
               <div className="tooltip origin-center mr-2 ml-2 w-full" data-tip="Express">
               <ExpressIcon className="rounded-md bg-slate-100 p-1 origin-center hover:-rotate-12 transition-all drop-shadow-md w-full h-full" />
