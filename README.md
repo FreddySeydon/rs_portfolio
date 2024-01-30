@@ -1,8 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with 
-
 ## Welcome
 
-This will become my portfolio that I will use to apply for jobs as a Junior Web- and App-Developer.
+This is my portfolio website that I will use to apply for jobs as a Web- and App-Developer.
 Feel free to get inspired by this.
 
 ## Setup
