@@ -33,7 +33,7 @@ function Hero() {
             <div className="tooltip origin-center mr-2 ml-2 w-full" data-tip="JavaScript">
               <JavaScriptIcon className="rounded-md bg-slate-100 p-1 origin-center hover:rotate-12 transition-all drop-shadow-md w-full h-full" />
               </div>
-              <div className="tooltip origin-center mr-2 ml-2 w-full" data-tip="React">
+              <div className="tooltip origin-center mr-2 ml-2 w-full" data-tip="React (Native)">
               <ReactIcon className="rounded-md bg-slate-100 p-1 origin-center hover:-rotate-12 transition-all drop-shadow-md w-full h-full" />
               </div>
               <div className="tooltip origin-center mr-2 ml-2 w-full" data-tip="Next.js (This Website!)">

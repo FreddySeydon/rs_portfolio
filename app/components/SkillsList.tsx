@@ -28,6 +28,9 @@ import {
   XdIcon,
   ReactNativeIcon,
   MySqlIcon,
+  ChatGptIcon,
+  ExpoIcon,
+  FigmaIcon
 } from "./Icons";
 
 const SkillsList = () => {
@@ -40,24 +43,27 @@ const SkillsList = () => {
     { component: <HtmlIcon />, name: "HTML 5" },
     { component: <CssIcon />, name: "CSS 3" },
     { component: <GitIcon />, name: "Git" },
-    { component: <GitHubIcon />, name: "GitHub" },
+    { component: <ExpoIcon />, name: "Expo (React Native)" },
     { component: <TypeScriptIcon />, name: "TypeScript" },
     { component: <MySqlIcon />, name: "MySQL" },
     { component: <MongoIcon />, name: "MongoDB" },
     { component: <TailwindIcon />, name: "Tailwind CSS" },
     { component: <PythonIcon />, name: "Python" },
     { component: <SassIcon />, name: "Sass" },
+    { component: <GitHubIcon />, name: "GitHub" },
     { component: <FirebaseIcon />, name: "Firebase" },
     { component: <PostgresIcon />, name: "PostgreSQL" },
     { component: <SqliteIcon />, name: "SQLite" },
+    { component: <VsCodeIcon />, name: "VS Code" },
+    { component: <ChatGptIcon />, name: "Chat GPT / Tyler" },
     { component: <SlackIcon />, name: "Slack" },
     { component: <TrelloIcon />, name: "Trello" },
-    { component: <VsCodeIcon />, name: "VS Code" },
     { component: <WebStormIcon />, name: "WebStorm" },
+    { component: <FigmaIcon />, name: "Figma" },
+    { component: <XdIcon />, name: "Adobe XD" },
     { component: <PremiereIcon />, name: "Premiere Pro" },
     { component: <PhotoshopIcon />, name: "Photoshop" },
     { component: <IllustratorIcon />, name: "Illustrator" },
-    { component: <XdIcon />, name: "Adobe XD" },
   ];
 
   const [isMore, setIsMore] = useState(false);
@@ -92,7 +98,7 @@ const SkillsList = () => {
       <div className="collapse bg-base-200">
         <input type="checkbox" onChange={handleChange} />
         <div className="collapse-title text-xl font-medium text-center flex justify-center m-0 p-0 pt-2">
-          <p className=" m-0 p-0 text-center underline">
+          <p className=" m-0 p-0 text-center underline text-3xl lg:text-xl">
             {" "}
             {isMore ? "less..." : "more..."}
           </p>

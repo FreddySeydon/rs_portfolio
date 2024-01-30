@@ -38,6 +38,9 @@ const NavBar = () => {
             <a href="#portfolio" className="text-xl hidden lg:block">
               <li className="p-4 hover:scale-110 transition-all font-semibold text-accent-blue">Portfolio</li>
             </a>
+            <a href="https://github.com/FreddySeydon" target="_blank" className="text-xl hidden lg:block">
+              <li className="p-4 hover:scale-110 transition-all font-semibold text-accent-blue">GitHub</li>
+            </a>
           </ul>
         </div>
         <div className="block lg:hidden text-xl text-accent-blue">

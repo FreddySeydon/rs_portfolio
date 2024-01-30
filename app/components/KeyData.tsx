@@ -88,6 +88,17 @@ const KeyData = () => {
               <div>
                 <h3 className="text-xl font-bold text-accent-blue">
                   <a
+                    href="https://github.com/FreddySeydon"
+                    target="_blank"
+                    className="link"
+                  >
+                    GitHub
+                  </a>
+                </h3>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-accent-blue">
+                  <a
                     href="http://www.linkedin.com/in/renja-schmakeit"
                     target="_blank"
                     className="link"
@@ -176,7 +187,19 @@ const KeyData = () => {
           Social
         </h3>
         <h2 className="text-3xl font-bold text-accent-blue">
-          <div className="flex gap-2 justify-center">
+          <div className="flex gap-5 justify-center">
+            <div>
+            <div>
+              <h3 className="text-3xl font-bold text-accent-blue text-center pb-3">
+                <a
+                  href="https://github.com/FreddySeydon"
+                  target="_blank"
+                  className="link"
+                >
+                  GitHub
+                </a>
+              </h3>
+            </div>
             <div>
               <h3 className="text-3xl font-bold text-accent-blue text-center">
                 <a
@@ -188,13 +211,15 @@ const KeyData = () => {
                 </a>
               </h3>
             </div>
+            </div>
+            <div className="content-center justify-center text-center">
             <div>
               <a
                 href="https://www.instagram.com/renja.ferry"
                 target="_blank"
                 className="link"
               >
-                <h3 className="text-3xl font-bold text-accent-blue">Insta</h3>
+                <h3 className="text-3xl font-bold text-accent-blue pb-3">Insta</h3>
               </a>
             </div>
             <div>
@@ -207,6 +232,7 @@ const KeyData = () => {
                   Facebook
                 </h3>
               </a>
+            </div>
             </div>
           </div>
         </h2>

@@ -57,6 +57,15 @@ const DrawerMenu = () => {
             >
               Portfolio
             </a>
+            <a
+              href="https://github.com/FreddySeydon"
+              target="_blank"
+              onClick={closeDrawer}
+              className="text-3xl bg-accent-blue rounded-none m-1 text-white hover:text-accent-blue"
+            >
+              GitHub
+            </a>
+
           </li>
         </ul>
       </div>
