@@ -81,6 +81,7 @@ const SkillsList = () => {
       <h2 className="text-3xl text-center font-bold mb-5 uppercase text-accent-blue">
         Skills
       </h2>
+      <h3 className="text-2xl text-center pb-4 text-accent-blue">I've worked with all of these at least once. Ask me which ones I know best.</h3>
       <div className="grid grid-cols-4 gap-2">
         {skillIcons.map((IconComponent, index) =>
           index <= 11 ? (
@@ -98,8 +99,7 @@ const SkillsList = () => {
       <div className="collapse bg-base-200">
         <input type="checkbox" onChange={handleChange} />
         <div className="collapse-title text-xl font-medium text-center flex justify-center m-0 p-0 pt-2">
-          <p className=" m-0 p-0 text-center underline text-3xl lg:text-xl">
-            {" "}
+          <p className=" m-0 p-0 text-center underline text-3xl lg:text-xl text-accent-blue font-medium">
             {isMore ? "less..." : "more..."}
           </p>
         </div>

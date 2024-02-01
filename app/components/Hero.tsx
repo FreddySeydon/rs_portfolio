@@ -9,17 +9,17 @@ function Hero() {
     <>
       <div className="section lg:mt-10 lg:mb-10 text-basic-g">
         <div className="flex flex-col items-center justify-evenly lg:flex-row w-full">
-          <div className="w-50 lg:w-1/3 flex flex-col p-2 hover:scale-110 transition-all drop-shadow-md sm:pb-7 mt-5 lg:mt-0">
+          <div className="w-50 lg:w-1/3 flex flex-col p-2 lg:hover:scale-110 transition-all drop-shadow-md sm:pb-7 mt-5 lg:mt-0">
             <Image
               src={mugshot}
               alt="Renja Schmakeit Mugshot"
               className="rounded-t-xl w-full drop-shadow-md"
             />
             <div className="bg-basic-green p-4 mb-5 lg:mb-0">
-              <h1 className="text-3xl lg:text-5xl text-center lg:pb-2 md:text-5xl text-accent-blue font-bold">
+              <h1 className="text-3xl lg:text-5xl text-center lg:pb-2 md:text-5xl text-accent-blue font-medium">
                 Renja Ferry Schmakeit
               </h1>
-              <h3 className="text-xl lg:text-3xl text-center md:text-3xl text-accent-blue/80 font-semibold">
+              <h3 className="text-xl lg:text-3xl text-center md:text-3xl text-accent-blue/80">
                 Junior Web- and App-Developer
               </h3>
             </div>

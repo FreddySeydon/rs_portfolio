@@ -20,7 +20,7 @@ const Portfolio = () => {
               <Image src={RehearsalPreview} alt="Rehearsal App Preview" />
             </figure>
             <div className="card-body w-full lg:w-1/2">
-              <h2 className="card-title text-black text-2xl">
+              <h2 className="card-title text-accent-blue text-2xl uppercase">
                 Rehearsal App
                 <div className="badge badge-secondary">WIP</div>
               </h2>
@@ -55,7 +55,7 @@ const Portfolio = () => {
               <Image src={HonestcouchPreview} alt="Rehearsal App Preview" />
             </figure>
             <div className="card-body w-full lg:w-1/2 lg:order-1">
-              <h2 className="card-title text-black text-2xl">
+              <h2 className="card-title text-accent-blue text-2xl uppercase">
                 honestcouch
                 <div className="badge badge-secondary">WIP</div>
               </h2>

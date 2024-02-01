@@ -8,6 +8,7 @@ const NavBar = () => {
     <>
       <div className="flex flex-row items-center w-full bg-basic-green mt-0">
         <div>
+          <a href="#home">
           <Image
             src={rfsLogo}
             width={60}
@@ -15,6 +16,7 @@ const NavBar = () => {
             alt="Logo"
             className="rounded-md ml-8 hidden lg:block"
           />
+          </a>
           <label
             htmlFor="my-drawer"
             className="drawer-button block lg:hidden  ml-5 m-2"
@@ -43,8 +45,10 @@ const NavBar = () => {
             </a>
           </ul>
         </div>
-        <div className="block lg:hidden text-xl text-accent-blue">
+        <div className="block lg:hidden text-xl uppercase font-medium text-accent-blue">
+          <h1 className="items-center">
           Renja Ferry Schmakeit - Portfolio
+          </h1>
         </div>
       </div>
     </>

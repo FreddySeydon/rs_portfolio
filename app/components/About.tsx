@@ -29,7 +29,7 @@ const About = () => {
             <h2 className="text-3xl text-center font-bold mb-5 text-accent-blue uppercase">
               Short description
             </h2>
-            <h3 className="text-2xl font-bold text-center mb-5 text-black">
+            <h3 className="text-2xl text-center mb-5 text-black">
               I studied Design & Media in Hannover and worked in the media
               industry for 10 years in various positions on set and in the
               production office as well as in post production. The skillset I
