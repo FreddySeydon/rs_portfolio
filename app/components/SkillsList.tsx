@@ -81,7 +81,7 @@ const SkillsList = () => {
       <h2 className="text-3xl text-center font-bold mb-5 uppercase text-accent-blue">
         Skills
       </h2>
-      <h3 className="text-2xl text-center pb-4 text-accent-blue">I've worked with all of these at least once. Ask me which ones I know best.</h3>
+      <h3 className="text-2xl text-center pb-4 text-accent-blue">I&apos;ve worked with all of these at least once. Ask me which ones I know best.</h3>
       <div className="grid grid-cols-4 gap-2">
         {skillIcons.map((IconComponent, index) =>
           index <= 11 ? (
