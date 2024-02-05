@@ -1,6 +1,6 @@
 import React from "react";
 import RehearsalPreview from "../../public/reheasal-preview.png";
-import HonestcouchPreview from "../../public/honestcouch-preview.jpg";
+import HonestcouchPreview from "../../public/honestcouch.jpg";
 import Image from "next/image";
 
 const Portfolio = () => {
@@ -51,7 +51,7 @@ const Portfolio = () => {
           </div>
           <div className="card lg:card-side w-full bg-base-100 shadow-xl">
             <figure className="lg:order-2 lg:rounded-2xl lg:rounded-l-none">
-              <Image src={HonestcouchPreview} alt="Rehearsal App Preview" />
+              <Image src={HonestcouchPreview} alt="honestcouch Preview" />
             </figure>
             <div className="card-body w-full lg:w-1/2 lg:order-1">
               <h2 className="card-title text-accent-blue text-2xl uppercase">
