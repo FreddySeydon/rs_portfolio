@@ -145,23 +145,23 @@ const KeyData = () => {
       </table>
 
       <div className="block lg:hidden">
-        <h3 className="text-2xl text-gray-600 uppercase text-center">Name</h3>
-        <h2 className="text-3xl font-medium text-accent-blue text-center">
+        <h3 className="text-xl text-gray-600 uppercase text-center">Name</h3>
+        <h2 className="text-2xl font-medium text-accent-blue text-center">
           Renja Ferry Schmakeit
         </h2>
         <div className="divider divider-secondary m-1"></div>
         <div className="flex justify-center gap-10 ml-11">
           <div>
-        <h3 className="text-2xl text-gray-600 uppercase text-center">Age</h3>
-        <h2 className="text-3xl font-medium text-accent-blue text-center">
+        <h3 className="text-xl text-gray-600 uppercase text-center">Age</h3>
+        <h2 className="text-2xl font-medium text-accent-blue text-center">
           {calculateAge(761875200)}
         </h2>
         </div>
         <div>
-        <h3 className="text-2xl text-gray-600 uppercase text-center">
+        <h3 className="text-xl text-gray-600 uppercase text-center">
           Email
         </h3>
-        <h2 className="text-3xl font-medium text-accent-blue text-center">
+        <h2 className="text-2xl font-medium text-accent-blue text-center">
           <a href="mailto:it@renja.cc" className="underline">
             it@renja.cc
           </a>
@@ -174,28 +174,28 @@ const KeyData = () => {
         </h3>
         <h2 className="text-3xl font-medium text-accent-blue text-center">he/him</h2> */}
         <div className="divider divider-secondary m-1"></div>
-        <h3 className="text-2xl text-gray-600 uppercase text-center">
+        <h3 className="text-xl text-gray-600 uppercase text-center">
           Degree
         </h3>
-        <h2 className="text-3xl font-medium text-accent-blue text-center">
+        <h2 className="text-2xl font-medium text-accent-blue text-center">
           MA Design & Media
         </h2>
         <div className="divider divider-secondary m-1"></div>
-        <h3 className="text-2xl text-gray-600 uppercase text-center">
+        <h3 className="text-xl text-gray-600 uppercase text-center">
           Qualification
         </h3>
-        <h2 className="text-3xl font-medium text-accent-blue text-center">
+        <h2 className="text-2xl font-medium text-accent-blue text-center">
           Web- & App-Development Bootcamp at WBS Coding School
         </h2>
         <div className="divider divider-secondary m-1"></div>
-        <h3 className="text-2xl text-gray-600 uppercase text-center">
+        <h3 className="text-xl text-gray-600 uppercase text-center">
           Social
         </h3>
-        <h2 className="text-3xl font-medium text-accent-blue">
+        <h2 className="text-xl font-medium text-accent-blue">
           <div className="flex gap-5 justify-center">
             <div>
             <div>
-              <h3 className="text-3xl font-medium text-accent-blue text-center pb-3">
+              <h3 className="text-2xl font-medium text-accent-blue text-center pb-3">
                 <a
                   href="https://github.com/FreddySeydon"
                   target="_blank"
@@ -206,7 +206,7 @@ const KeyData = () => {
               </h3>
             </div>
             <div>
-              <h3 className="text-3xl font-medium text-accent-blue text-center">
+              <h3 className="text-2xl font-medium text-accent-blue text-center">
                 <a
                   href="http://www.linkedin.com/in/renja-schmakeit"
                   target="_blank"
@@ -224,7 +224,7 @@ const KeyData = () => {
                 target="_blank"
                 className="link"
               >
-                <h3 className="text-3xl font-medium text-accent-blue pb-3">Insta</h3>
+                <h3 className="text-2xl font-medium text-accent-blue pb-3">Insta</h3>
               </a>
             </div>
             <div>
@@ -233,7 +233,7 @@ const KeyData = () => {
                 target="_blank"
                 className="link"
               >
-                <h3 className="text-3xl font-medium text-accent-blue">
+                <h3 className="text-2xl font-medium text-accent-blue">
                   Facebook
                 </h3>
               </a>

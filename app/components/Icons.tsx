@@ -511,15 +511,15 @@ const ExpoIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
   >
     <path d="M.25 8.32l2.71 1.576 13.963-8.07L14.184.25.25 8.32z" fill="#fff" />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M14.059.034a.25.25 0 01.25 0l2.739 1.576a.25.25 0 010 .434L3.086 10.113a.25.25 0 01-.251 0L.125 8.535a.25.25 0 010-.433L14.059.033zm.125.506L.75 8.32l2.212 1.286 13.46-7.779L14.184.54z"
       fill={fill || "rgb(156, 189, 178)"}
     />
     <path d="M.25 8.32v16.137l2.74 1.576-.03-16.137L.25 8.319z" fill="#fff" />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M.126 8.102a.25.25 0 01.25 0l2.71 1.577a.25.25 0 01.125.216l.029 16.138a.25.25 0 01-.376.218L.126 24.674A.25.25 0 010 24.457V8.32a.25.25 0 01.126-.217zm.375.653v15.557L2.738 25.6 2.71 10.04.501 8.755z"
       fill={fill || "rgb(156, 189, 178)"}
     />
@@ -528,8 +528,8 @@ const ExpoIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
       fill={fill || "rgb(156, 189, 178)"}
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M17.048 1.61a.25.25 0 01.125.217v16.138a.25.25 0 01-.125.216l-13.933 8.07a.25.25 0 01-.376-.217L2.71 9.896a.25.25 0 01.125-.217L16.797 1.61a.25.25 0 01.25 0zM3.21 10.04L3.24 25.6l13.433-7.78V2.26l-13.46 7.78z"
       fill={fill || "rgb(156, 189, 178)"}
     />
@@ -538,8 +538,8 @@ const ExpoIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
       fill="#fff"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M18.856 2.796a.25.25 0 01.25 0l2.74 1.576a.25.25 0 010 .434L7.884 12.875a.25.25 0 01-.252 0l-2.71-1.577a.25.25 0 010-.433l13.934-8.07zm.126.506l-13.435 7.78 2.212 1.286 13.46-7.779-2.237-1.287z"
       fill={fill || "rgb(156, 189, 178)"}
     />
@@ -548,8 +548,8 @@ const ExpoIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
       fill="#fff"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M4.923 10.864a.25.25 0 01.251 0l2.71 1.577a.25.25 0 01.125.216l.028 16.138a.25.25 0 01-.375.218l-2.739-1.577a.25.25 0 01-.125-.217V11.081a.25.25 0 01.125-.217zm.376.653v15.557l2.236 1.288-.027-15.56-2.21-1.285z"
       fill={fill || "rgb(156, 189, 178)"}
     />
@@ -558,8 +558,8 @@ const ExpoIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
       fill={fill || "rgb(156, 189, 178)"}
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M21.845 4.372a.25.25 0 01.126.217v16.138a.25.25 0 01-.125.216l-13.934 8.07a.25.25 0 01-.376-.217l-.028-16.138a.25.25 0 01.125-.217l13.962-8.069a.25.25 0 01.25 0zM8.01 12.802l.027 15.56 13.434-7.78V5.022l-13.461 7.78z"
       fill={fill || "rgb(156, 189, 178)"}
     />
@@ -568,8 +568,8 @@ const ExpoIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
       fill="#fff"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M10.57 14.165a.25.25 0 01.129.148l5.283 16.411a.25.25 0 01-.16.315l-2.9.949a.25.25 0 01-.317-.164L7.524 15.432a.25.25 0 01.155-.31l2.697-.968a.25.25 0 01.195.01zm-2.496 1.348l4.935 15.92 2.42-.793L10.3 14.713l-2.227.8z"
       fill={fill || "rgb(156, 189, 178)"}
     />
@@ -578,8 +578,8 @@ const ExpoIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
       fill="#fff"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M24.526 6.707a.25.25 0 01.128.148l5.283 16.412a.25.25 0 01-.16.314l-2.9.949a.25.25 0 01-.316-.164L21.479 7.974a.25.25 0 01.155-.31l2.697-.968a.25.25 0 01.195.011zm-2.497 1.348l4.935 15.92 2.42-.792-5.128-15.928-2.227.8z"
       fill={fill || "rgb(156, 189, 178)"}
     />
@@ -588,8 +588,8 @@ const ExpoIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
       fill="#fff"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M24.51 6.7a.25.25 0 01.144.155l5.283 16.412a.25.25 0 01-.12.297l-13.955 7.458a.25.25 0 01-.357-.144l-5.283-16.412a.25.25 0 01.12-.297L24.297 6.71a.25.25 0 01.212-.012zm-13.747 7.812l5.127 15.927 13.506-7.218L24.27 7.294l-13.506 7.218z"
       fill={fill || "rgb(156, 189, 178)"}
     />
@@ -598,8 +598,8 @@ const ExpoIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
       fill="#fff"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M24.644 6.83a.25.25 0 01-.11.323L10.577 14.61a.242.242 0 01-.033.015l-2.697.969a.25.25 0 01-.203-.457L21.6 7.679a.258.258 0 01.034-.015l2.697-.968a.25.25 0 01.313.134z"
       fill={fill || "rgb(156, 189, 178)"}
     />
@@ -608,8 +608,8 @@ const ExpoIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
       fill={fill || "rgb(156, 189, 178)"}
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M18.282 12.83a.25.25 0 01.266.025l8.584 6.616a.25.25 0 01.087.267l-.59 2.074a.25.25 0 01-.375.144l-7.053-4.422-1.351 8.738a.25.25 0 01-.35.19l-1.85-.826a.25.25 0 01-.148-.245l.762-11.392a.25.25 0 01.135-.207l1.883-.962zm-1.528 1.344l-.74 11.076 1.39.621 1.36-8.79a.25.25 0 01.38-.174l7.094 4.447.453-1.59-8.323-6.415-1.614.825z"
       fill={fill || "rgb(156, 189, 178)"}
     />
@@ -625,7 +625,7 @@ const DrawerMenuIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
+      fillRule="evenodd"
       d="M21,17 C21.5522847,17 22,17.4477153 22,18 C22,18.5522847 21.5522847,19 21,19 L3,19 C2.44771525,19 2,18.5522847 2,18 C2,17.4477153 2.44771525,17 3,17 L21,17 Z M21,11 C21.5522847,11 22,11.4477153 22,12 C22,12.5522847 21.5522847,13 21,13 L3,13 C2.44771525,13 2,12.5522847 2,12 C2,11.4477153 2.44771525,11 3,11 L21,11 Z M21,5 C21.5522847,5 22,5.44771525 22,6 C22,6.55228475 21.5522847,7 21,7 L3,7 C2.44771525,7 2,6.55228475 2,6 C2,5.44771525 2.44771525,5 3,5 L21,5 Z"
     />
   </svg>
