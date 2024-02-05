@@ -1,7 +1,5 @@
 import * as React from "react";
 import { SVGProps } from "react";
-import reactNativeLogo from "../../public/react-native-logo.png";
-import TintedImage from "./TintedImage";
 
 const ExpressIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 128 128" {...props}>
@@ -461,10 +459,6 @@ const XdIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-const ReactNativeIcon = () => (
-  <TintedImage imageSource={reactNativeLogo} altText="React Native Logo" />
-);
-
 const ChatGptIcon = ({ fill, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2406 2406">
     <path
@@ -656,7 +650,6 @@ export {
   VsCodeIcon,
   WebStormIcon,
   XdIcon,
-  ReactNativeIcon,
   MySqlIcon,
   DrawerMenuIcon,
   ChatGptIcon,

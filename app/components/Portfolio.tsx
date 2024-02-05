@@ -1,8 +1,7 @@
 import React from "react";
 import RehearsalPreview from "../../public/reheasal-preview.png";
-import HonestcouchPreview from "../../public/honestcouch-preview.png";
+import HonestcouchPreview from "../../public/honestcouch-preview.jpg";
 import Image from "next/image";
-import LinkButton from "./LinkButton";
 
 const Portfolio = () => {
   return (
