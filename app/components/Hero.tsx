@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import mugshot from "../../public/rs_mugshot.jpg";
+import mugshot from "../../public/renja.jpg";
 import styles from "./Hero.module.css";
 import { ExpressIcon, NextjsIcon, ReactIcon, JavaScriptIcon } from "./Icons";
 
