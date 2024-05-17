@@ -1,6 +1,7 @@
 import React from "react";
 import RehearsalPreview from "../../public/reheasal-preview.png";
 import HonestcouchPreview from "../../public/honestcouch.jpg";
+import QubicastPreview from "../../public/qubicast.png";
 import Image from "next/image";
 
 const Portfolio = () => {
@@ -14,6 +15,34 @@ const Portfolio = () => {
         style={{ minHeight: "500px" }}
       >
         <div className="flex flex-col gap-8">
+        <div className="card lg:card-side w-full bg-base-100 shadow-xl">
+            <figure className="lg:order-2 lg:rounded-2xl lg:rounded-l-none">
+              <Image src={QubicastPreview} alt="QubiCast.com Website Preview" />
+            </figure>
+            <div className="card-body w-full lg:w-1/2 lg:order-1">
+              <h2 className="card-title text-accent-blue text-2xl uppercase">
+                QubiCast.com Website
+                {/* <div className="badge badge-secondary">WIP</div> */}
+              </h2>
+              <p className="text-2xl pb-2 text-black">
+                The Website of the theater lighting technology startup <b>QubiCast</b>.
+                Made in next.js with a postgres database the website provides all the information about what the company does and even blog acrticles (more coming soon) about the protocols currently used in the stage lighting industry.
+                The newsletter subscription form as well as the contact form are handled using useForm and nodemailer.
+              </p>
+              <a href="https://qubicast.com/" target="_blank">
+                <div className="card-actions justify-center mt-2 mb-2">
+                  <button className="btn btn-primary text-2xl lg:text-xl w-full">
+                    Visit QubiCast.com
+                  </button>
+                </div>
+              </a>
+              <div className="card-actions justify-end">
+                <div className="badge badge-outline text-accent-blue">Website</div>
+                <div className="badge badge-outline text-accent-blue">Industry</div>
+                <div className="badge badge-outline text-accent-blue">Tech</div>
+              </div>
+            </div>
+          </div>
           <div className="card lg:card-side w-full bg-base-100 shadow-xl">
             <figure>
               <Image src={RehearsalPreview} alt="Rehearsal App Preview" />
@@ -84,6 +113,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
