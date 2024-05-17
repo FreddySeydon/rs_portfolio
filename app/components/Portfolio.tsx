@@ -22,7 +22,6 @@ const Portfolio = () => {
             <div className="card-body w-full lg:w-1/2 lg:order-1">
               <h2 className="card-title text-accent-blue text-2xl uppercase">
                 QubiCast.com Website
-                {/* <div className="badge badge-secondary">WIP</div> */}
               </h2>
               <p className="text-2xl pb-2 text-black">
                 The Website of the theater lighting technology startup <b>QubiCast</b>.

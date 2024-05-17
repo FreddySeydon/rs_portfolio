@@ -12,9 +12,9 @@ export default function Home() {
   const navbarHeight = "65px";
 
   return (
-    <div className="drawer">
+    <div className="drawer flex flex-col justify-center items-center">
       <div className="drawer-content">
-        <main className="scroll-smooth">
+        <main className="scroll-smooth" style={{maxWidth: 2500}}>
           <div className="sticky top-0 right-0 left-0 z-40">
             <NavBar />
           </div>

@@ -7,7 +7,7 @@ import { ExpressIcon, NextjsIcon, ReactIcon, JavaScriptIcon } from "./Icons";
 function Hero() {
   return (
     <>
-      <div className="section lg:mt-10 lg:mb-10 text-basic-g">
+      <div className="section lg:mt-10 lg:mb-10 text-basic-g ">
         <div className="flex flex-col items-center justify-evenly lg:flex-row w-full">
           <div className="w-50 lg:w-1/3 flex flex-col p-2 lg:hover:scale-110 transition-all drop-shadow-md sm:pb-7 mt-5 lg:mt-0">
             <Image

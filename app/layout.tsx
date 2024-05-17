@@ -43,7 +43,7 @@ export default function RootLayout({
 }) {
   return (
     <html className='scroll-smooth' lang="en">
-      <body className={oswald.className} style={{overflowX:"auto", minWidth: 300}}>{children}</body>
+      <body className={`${oswald.className} flex flex-col justify-center items-center`} style={{overflowX:"auto", minWidth: 300}}>{children}</body>
     </html>
   )
 }
